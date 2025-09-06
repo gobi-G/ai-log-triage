@@ -20,14 +20,14 @@ An AI-powered log analysis and triage system built with TypeScript.
 ### Prerequisites
 
 - Node.js 20+
-- npm 9+
+- Yarn 1.22+
 
 ### Getting Started
 
 1. Install dependencies:
 
    ```bash
-   npm install
+   yarn install
    ```
 
 2. Copy environment files:
@@ -39,23 +39,23 @@ An AI-powered log analysis and triage system built with TypeScript.
 
 3. Start development servers:
    ```bash
-   npm run dev
+   yarn dev
    ```
    This starts both API server (port 8787) and web server (port 5173).
 
 ### Available Scripts
 
-- `npm run dev` - Start both API and web in development mode
-- `npm run build` - Build both packages
-- `npm run start` - Start production API server
-- `npm run typecheck` - Type check all packages
+- `yarn dev` - Start both API and web in development mode
+- `yarn build` - Build both packages
+- `yarn start` - Start production API server
+- `yarn typecheck` - Type check all packages
 
 ### Individual Package Commands
 
-- `npm run dev:api` - Start only the API server
-- `npm run dev:web` - Start only the web development server
-- `npm run build:api` - Build only the API
-- `npm run build:web` - Build only the web app
+- `yarn dev:api` - Start only the API server
+- `yarn dev:web` - Start only the web development server
+- `yarn build:api` - Build only the API
+- `yarn build:web` - Build only the web app
 
 ## API Endpoints
 
@@ -140,7 +140,7 @@ ai-log-triage/
 
 ## Usage
 
-1. **Start the servers**: `npm run dev`
+1. **Start the servers**: `yarn dev`
 2. **Open web interface**: http://localhost:5173
 3. **Upload logs**: Drag & drop files or paste text
 4. **Click "Summarize"**: Get AI-powered analysis
